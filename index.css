@@ -16,7 +16,7 @@ body{
   position: absolute;
   bottom: 30%;
   right: 0;
-  z-index: -1;
+  z-index: -1;  
 }
 
 #polygon2{
@@ -119,6 +119,11 @@ body{
   }
 }
 
+.video{
+  position: absolute;
+  z-index: 1;
+}
+
 .expmaintainers{
   display: flex;
   justify-content: space-between;
@@ -138,6 +143,7 @@ body{
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  z-index: 2;
 }
 
 .left_expmaintainers{
